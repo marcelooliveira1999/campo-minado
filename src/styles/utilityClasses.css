@@ -1,0 +1,44 @@
+.hidden {
+  display: none;
+}
+
+.disabled {
+  background-color: var(--bg-secondary);
+  border: 2px inset #6b6b6b;
+  cursor: default;
+}
+
+.disable-all {
+  background-color: var(--bg-disable-all) !important;
+  border: 2px inset #6b6b6b;
+  cursor: default;
+}
+
+.lose {
+  background-color: #8d0000 !important;
+  cursor: not-allowed;
+}
+
+.win {
+  background-color: #27d200 !important;
+  cursor: not-allowed;
+}
+
+.erro {
+  background-color: brown !important;
+}
+
+.rand-color-one {
+  background-color: #723ea9;
+}
+
+.rand-color-two {
+  background-color: #401d61;
+}
+
+.rand-color-three {
+  background-color: #cd3300;
+}
+.rand-color-four {
+  background-color: #feb41a;
+}

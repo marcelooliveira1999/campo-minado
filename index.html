@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Minado</title>
+
+    <link rel="stylesheet" href="./src/styles/globals.css" />
+    <link rel="stylesheet" href="./src/styles/field.css" />
+    <link rel="stylesheet" href="./src/styles/utilityClasses.css" />
+    <link rel="stylesheet" href="./src/styles/progress.css" />
+    <link rel="stylesheet" href="./src/styles/aside.css" />
+    <link rel="stylesheet" href="./src/styles/mediaQuery.css" />
+    <link rel="stylesheet" href="./src/styles/score.css" />
+  </head>
+
+  <body>
+    <div id="link">
+      <a href="http://beacons.ai/marcelooliver" target="_blank">@marcelo</a>
+    </div>
+
+    <div id="check-media">
+      <div id="check-text">
+        <h1>Sorry!!!</h1>
+        <h3>Este jogo não esta adaptado para tamanhos de tela menores que 800px...</h3>
+        <a href="http://beacons.ai/marcelooliver" target="_blank">@Marcelo</a>
+      </div>
+    </div>
+
+    <div id="score-container">
+      <input type="text" id="highest-score" class="scores" placeholder="Maior Pontuação" disabled />
+      <input type="text" id="current-score" class="scores" placeholder="Pontuação Atual" disabled />
+    </div>
+
+    <div id="aside-board">
+      <div id="container-difficulty">
+        <div class="input-difficulty">
+          <input type="radio" name="difficulty" class="difficulty" id="easy" checked />
+          <label class="difficulty-text" for="easy">easy</label>
+        </div>
+
+        <div class="input-difficulty">
+          <input type="radio" name="difficulty" class="difficulty" id="normal" />
+          <label class="difficulty-text" for="normal">normal</label>
+        </div>
+
+        <div class="input-difficulty">
+          <input type="radio" name="difficulty" class="difficulty" id="hard" />
+          <label class="difficulty-text" for="herd">hard</label>
+        </div>
+      </div>
+
+      <div id="input-format">
+        <input type="number" id="input-field-format" placeholder="4 a 20" />
+        <input type="button" id="start-button" value="Start" />
+      </div>
+
+      <div id="lifes"></div>
+    </div>
+
+    <div id="field"></div>
+
+    <span id="progress">
+      <div id="cat-container">
+        <img id="cat-image" class="cat" src="./assets/cat/marcelo/cat-stop.gif" alt="" srcset="" />
+      </div>
+
+      <img id="fish-image" class="fish" src="./assets/food/fish-01.png" alt="" srcset="" />
+    </span>
+
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>
