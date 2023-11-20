@@ -7,6 +7,7 @@ import { StartGame } from "./modules/StartGame.js";
 import { RandColors } from "./modules/RandColor.js";
 import { Cat } from "./modules/Cat.js";
 import { Life } from "./modules/Life.js";
+import { ShowInfo } from "./modules/ShowInfo.js";
 
 let bombPositions = null;
 class Main {
@@ -31,6 +32,7 @@ class Main {
 }
 
 Main.start();
+ShowInfo();
 
 const startGame = new StartGame();
 startGame.getDataInput();

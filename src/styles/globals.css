@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
 
 :root {
   --bg-primary: #06142e;
@@ -14,7 +15,8 @@
 }
 
 * {
-  font-family: "JetBrains Mono", monospace;
+  /* font-family: "JetBrains Mono", monospace; */
+  font-family: "Poppins", sans-serif;
   user-select: none;
   box-sizing: border-box;
   padding: 0;
@@ -46,15 +48,15 @@ body {
 #link {
   position: absolute;
 
-  top: 10px;
-  left: 0;
+  bottom: 1rem;
+  left: 1.5rem;
 }
 
 #link a {
   font-size: 1.2rem;
   color: #713ea4;
 
-  writing-mode: vertical-rl;
+  /* writing-mode: vertical-rl; */
   text-decoration: none;
   letter-spacing: 1px;
 

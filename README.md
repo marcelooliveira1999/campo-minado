@@ -1,6 +1,7 @@
 # campo-minado
-*Projeto pessoal!!!*
+
+_Projeto pessoal!!!_
 
 Jogo tipo campo minado, criado com HTML, CSS e JavaScript.
 
-Acesse: https://campo-minado-iota.vercel.app/
+Acesse: https://campo-minado-game.netlify.app/

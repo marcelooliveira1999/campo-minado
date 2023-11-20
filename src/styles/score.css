@@ -1,6 +1,8 @@
 #score-container {
   display: flex;
   overflow: hidden;
+
+  opacity: 0;
 }
 
 .scores {
